@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.header{
+  max-width: 100%;
+  box-shadow: 5px 5px 20px gray;
+  background-color: black;
+}
+.row div{
+  display:inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.brand{
+  color:White;
+  margin-left: 2%;
+  padding:0.8em;
+  width:23%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inp-container input{
+  display:inline-block;
+  width:75%;
+  height:2.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inp-container button{
+  border:none;
+  background-color: #dadada;
+  width:10%;
+  height:2.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.dropdown{
+  width:15%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.select-btn{
+  height:2.5rem;
+  border:none;
+  background-color: #dadada;
+  font-weight: 600;
 }
+
+
+.login-container{
+  width:15%;
+  color:white;
+  text-align: right;
+  margin:1.73em 0.2em 0 0;
+}
+
+.login-container i,h5{
+  display:inline-block;
+}
+
+.login-container a {
+  text-decoration: none;
+  color:white;
+}
+.user-icon{
+margin-right: 0.4em;
+padding:0.2em;
+font-size: 1.3em;
+}
+.cart-wishlist .list-icon{
+  color:white;
+  font-size: 1.3em;
+  list-style-type: none;
+  margin-right: 0.5em;
+  display: inline-block;
+}
+
+.cart-wishlist{
+  width:7%;
+  margin:1.7em 0 0 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
